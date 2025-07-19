@@ -44,7 +44,7 @@ The proposed method organizes teachers in a hierarchical pyramid structure:
 
 1. **Top Level (Level 0)**: Single teacher learning all class labels
 2. **Middle Levels**: Increasing number of teachers, each specializing in class subsets  
-3. **Bottom Level**: Highly specialized teachers with minimal class overlap
+3. **Bottom Level**: Highly specialized teachers with no class overlap
 
 ### Key Components
 
