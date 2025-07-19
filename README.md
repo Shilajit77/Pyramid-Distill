@@ -92,10 +92,7 @@ For student ensemble:
 
 ```
 pyramid-distill/
-├── paper/                  # Research paper and supplementary materials
-├── figures/               # Architecture diagrams and result plots  
-├── experiments/           # Experimental configurations and results
-├── docs/                  # Additional documentation
+├── codes/                  # codes
 └── README.md             # This file
 ```
 
