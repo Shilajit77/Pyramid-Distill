@@ -1,13 +1,4 @@
-"""
-Knowledge Distillation Training Script for CIFAR-100
-===================================================
 
-This script implements a multi-teacher knowledge distillation framework for training
-an ensemble of lightweight student models on CIFAR-100 dataset.
-
-Author: Your Name
-Date: 2025
-"""
 
 import os
 import json
