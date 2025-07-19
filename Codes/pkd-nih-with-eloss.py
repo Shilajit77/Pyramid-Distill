@@ -1,10 +1,4 @@
-"""
-Multi-Teacher Knowledge Distillation for Medical Image Classification
-Ensemble Training Script with Resume Functionality
 
-This script implements a multi-teacher knowledge distillation framework
-for training lightweight student models on the NIH chest X-ray dataset.
-"""
 
 import os
 import json
