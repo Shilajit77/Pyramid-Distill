@@ -67,26 +67,7 @@ For student ensemble:
   - Train lightweight student models
 ```
 
-## Getting Started
 
-### Understanding the Method
-
-1. **Read the Paper**: Review the methodology and theoretical foundation
-2. **Examine Architecture**: Study the pyramid structure diagrams in `figures/`
-3. **Review Experiments**: Check experimental setups and results in `experiments/`
-4. **Implementation Planning**: Use the documented approach for your own implementation
-
-### For Researchers
-
-- The methodology can be adapted to various classification problems
-- Pyramid structure is scalable to different numbers of classes
-- Novel distillation loss can be integrated into existing KD frameworks
-
-### For Practitioners  
-
-- Consider the trade-off between model complexity and performance gains
-- Evaluate computational overhead of training multiple teachers
-- Assess memory requirements for ensemble inference
 
 ## Repository Structure
 
@@ -96,15 +77,7 @@ pyramid-distill/
 └── README.md             # This file
 ```
 
-## Future Implementation
 
-The complete codebase will include:
-
-- **Teacher Training Module**: Scripts for training pyramid of specialized teachers
-- **Student Ensemble Module**: Implementation of lightweight student training
-- **Distillation Loss Function**: Custom loss combining multi-teacher knowledge
-- **Evaluation Framework**: Comprehensive testing on multiple datasets
-- **Configuration System**: Flexible YAML-based parameter management
 
 ## Citation
 
